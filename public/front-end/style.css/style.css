@@ -1,0 +1,312 @@
+*{
+	box-sizing: border-box;
+}
+
+.chamngon .cauchamngon p {
+    font-style:  italic;
+    font-family: -webkit-body;
+}
+
+.sidebar .thongtin .diachi {
+    padding: 24px 0px;
+}
+
+.sidebar .thongtin .diachi p {
+    font-family: cursive;
+    font-st: ;yle:  italic;
+}
+body,p,h1{
+	font-family: fantasy,"Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #000000e3;
+}
+.header .navbar-nav{
+	text-align: center;
+}
+.header{
+	padding-top: 55px;
+	background: #e19292;
+	
+}
+.section{
+	background: linear-gradient(#e29494,yellow);
+	height: 500px;
+}
+.section .iam{
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+	height: 400px;
+	/*border: 1px solid #ccc;*/
+	width: 35.6%;
+	margin: auto;
+	padding-top: 80px;
+	font-size: 40px;
+}
+.section .iam h1{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 57px;
+	font-family: fantasy;
+}
+.section .iam p{
+	text-align: center;
+	font-family: Lora;
+}
+.section .cvsocial{
+	display: block;
+	width: 26%;
+	margin:  auto;
+}
+.cvsocial .cv{
+	float: left;
+}
+.cvsocial .social{
+	font-size: 24px;
+}
+.cvsocial .social a{
+	margin-top:  14px;
+	background: #fff;
+	width: 43px;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	display:  inline-block;
+	text-align:  center;
+}
+.sidebar{
+	padding-bottom: 50px;
+	height: 100%;
+	background: url("../images/nen.png");
+}
+
+.sidebar.my-app{
+	
+}
+
+.sidebar.skill-side {
+    height: 30em;
+    background: url('../images/deve.jpg') fixed;
+}
+.sidebar .title{
+	width: 62%;
+	border-bottom: 3px solid #ccc;
+	margin-left: 18%;
+	font-size: 36px;
+	color:  #fff;
+	padding-left:  11px;
+}
+
+.sidebar .title span {
+    color: #805050;
+    font-size: 137px;
+}
+.sidebar .thongtin{
+	color:  #fff;
+	padding:  10px 0 0 16px;
+	margin: auto;
+}
+.sidebar .thongtin img.about-img{
+	width: 30%;
+	/* height: 18em; */
+}
+.chamngon{
+	height: 21em;
+	background: url("../images/bac.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.chamngon .cauchamngon{
+	display: block;
+	text-align: center;
+	width:  100%;
+	font-size: 31px;
+	margin-top: 4em;
+	color: #f7f7f7;
+}
+.sidebar .content{
+	position: relative;
+	width: 46%;
+	border: 1px solid #ccc;
+	color :#000;
+	background: #fff;
+	border-radius: 8px;
+	padding:  18px;
+}
+
+.content.right {
+    left: 53%;
+}
+.sidebar .thongtin.skill-all{
+	font-size: 24px;
+	font-family:  cursive;
+	font-style:  italic;
+	padding-top: 2em;
+}
+.sidebar .thongtin.skill-all .skills label{}
+
+.sidebar .thongtin.timeline::after{
+	background:  #fff;
+	width:  10px;
+	content: "";
+	height: 98%;
+	position: absolute;
+	color:  #fff;
+	left: 50%;
+	top: 2.3%;
+	border-radius:  5px;
+}
+.left::before {
+	height: 30px;
+	content: "";
+	display: inline-block;
+	background: #672a2a;
+	width: 30px;
+	border: 6px solid #fff;
+	position: absolute;
+	border-radius: 50%;
+	top: 4%;
+	z-index:  10;
+	left: 104.4%;
+}
+.right::before {
+	height: 30px;
+	content: "";
+	display: inline-block;
+	background: #672a2a;
+	width: 30px;
+	border: 6px solid #fff;
+	position: absolute;
+	border-radius: 50%;
+	top: 4%;
+	z-index:  10;
+	left: -11.4%;
+}
+p{
+	font-family: cursive;
+}
+.thongtin .skill{
+	margin-top: 15px;
+	float:  right;
+	width: 50%;
+}
+.sidebar.my-app .thongtin .card .card-block{
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+.sidebar.my-app .thongtin .card{
+	border: none;
+	width: 100%;
+	margin: auto;
+	float: left;
+	overflow: hidden;
+	background: transparent;
+}
+.sidebar.my-app .thongtin .card img{
+	margin: auto;
+	width: 75%;
+	height: 100%;
+}
+.sidebar .contact .contactme img{
+	padding: 0;
+	border-radius:  50%;
+	width:  100%;
+}
+
+.sidebar .contact .contactme > div:not(:first-child){
+	top: 33%;
+	float: left;
+}
+.sidebar .contact .lienhe #map{
+	width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.sidebar .contact .lienhe #map iframe{
+	width: 100%;
+	height: 300px;
+}
+
+.sidebar .contact .lienhe{
+	padding-top: 10px;
+}
+@media screen and (max-width: 1150px){
+	.cvsocial .cv{
+		float: none;
+	}
+	.section .cvsocial{
+		width: 100%;
+	}
+	.content.right{
+		left: 0;
+	}
+	.sidebar .content{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.right::before{
+		left: 104.4%;
+	}
+	.sidebar .thongtin.timeline::after{
+		left: 105.9%;
+	}
+}
+@media screen and (max-width: 978px){
+	.sidebar .media{
+		display: inline-block;
+	}
+	.sidebar .media-body{
+		margin-top: 10px;
+	}
+	.sidebar .thongtin .contactme > div{
+		float: none!important;
+	    top: 0!important;
+	    left: 0;
+	    margin: auto!important;
+	    max-width: 70%;
+	    text-align: center;
+	    margin-bottom: 10px!important;
+	}
+	.sidebar .thongtin img.about-img{
+		width: 90%;
+	}
+	.sidebar .contact .contactme img{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 767px){
+	.header .navbar{
+		background: #0000005c;
+	}
+	.header .navbar a{
+		color: #fff;
+	}
+	.sidebar .contact .lienhe{
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 880px){
+	.sidebar .thongtin.skill-all{
+		max-width: 89%;
+		flex: 0 0 89%;
+	}
+	.sidebar .thongtin.skill-all .skills label{
+		font-size: 58%;
+	}
+}
+@media screen and (max-width: 588px){
+	.sidebar .title{
+		font-size: 16px;
+	}
+	.sidebar .title span{
+		margin: -23px 0px;
+	    color: #805050;
+	    font-size: 80px;
+	    display: inline-block;
+	}
+}
