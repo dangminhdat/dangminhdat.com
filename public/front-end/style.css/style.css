@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+.color{
+	color: red!important;
+}
+
 .chamngon .cauchamngon p {
     font-style:  italic;
     font-family: -webkit-body;
@@ -147,7 +151,6 @@ body{
 	font-style:  italic;
 	padding-top: 2em;
 }
-.sidebar .thongtin.skill-all .skills label{}
 
 .sidebar .thongtin.timeline::after{
 	background:  #fff;
@@ -296,11 +299,12 @@ p{
 		flex: 0 0 89%;
 	}
 	.sidebar .thongtin.skill-all .skills label{
-		font-size: 58%;
+		font-size: 50%;
 	}
 }
 @media screen and (max-width: 588px){
 	.sidebar .title{
+		margin-top: 10px;
 		font-size: 16px;
 	}
 	.sidebar .title span{
@@ -308,5 +312,10 @@ p{
 	    color: #805050;
 	    font-size: 80px;
 	    display: inline-block;
+	}
+}
+@media screen and (max-width: 320px){
+	.sidebar .thongtin .contactme div:nth-child(3) p{
+		margin-left: -50px;
 	}
 }

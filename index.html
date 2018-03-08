@@ -10,11 +10,16 @@
 	<link rel="stylesheet" href="public/front-end/bootstrap/vendor/font-awesome.css">
 	<link rel="stylesheet" href="public/front-end/owlcarousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="public/front-end/owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="public/front-end/style.css/animate.css">
 	<script src="public/front-end/bootstrap/jquery.min.js"></script>
 	<script src="public/front-end/bootstrap/vendor/tether.min.js"></script>
 	<script src="public/front-end/bootstrap/vendor/bootstrap.min.js"></script>
 	<script src="public/front-end/owlcarousel/owl.carousel.min.js"></script>
 	<script src="public/front-end/script/script.js"></script>
+	<script src="public/front-end/script/WOW.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
 <body>
 	<!-- header -->
@@ -54,12 +59,12 @@
 	<div class="section">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="iam col-12"">
-					<p>I'm</p>
-					<h1>DAT DANG</h1>
-					<p>Developer Web</p>
+				<div class="iam col-12">
+					<p class="wow slideInDown">I'm</p>
+					<h1 class="wow slideInDown">DAT DANG</h1>
+					<p class="wow slideInLeft">Developer Web</p>
 
-					<div class="cvsocial text-center">
+					<div class="cvsocial text-center wow slideInUp">
 						<div class="cv">
 							<button class="btn btn-primary">
 								<span class="fa fa-download"> Download CV</span>
@@ -88,19 +93,19 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="title">
-					<p><span>A</span>bout</p>
+					<p class="wow bounceIn"><span>A</span>bout</p>
 				</div>
 
 				<div class="col-8 thongtin">
 					<div class="media">
-						<img src="public/front-end/images/boss.jpg" alt="" class="about-img d-flex mr-3">
-						<div class="media-body">
+						<img src="public/front-end/images/boss.jpg" alt="" class="about-img d-flex mr-3 wow slideInLeft">
+						<div class="media-body wow slideInRight">
 							<h5 class="mt-0" style="color: yellow">DANG MINH DAT</h5>
 							<p>Developer Web</p>
 
 							<div class="diachi">
 								<p><strong>Địa chỉ: </strong>41 Trần Quý Cáp, Phường Vĩnh Điện, Thị Xã Điện Bàn, Tỉnh Quảng Nam</p>
-								<p><strong>Điểm mạnh: </strong>Thiết kế front-end, backend(PHP-Wordpress)</p>
+								<p><strong>Điểm mạnh: </strong>Thiết kế front-end, backend(PHP-Laravel-Wordpress)</p>
 								<p><strong>Email: </strong>dangminhdat.qnam@gmail.com</p>
 								<p><strong>Sở thích: </strong>Game, Film, IT</p>
 								<p><strong>Phone: </strong>(+84) 1215 300 516</p>
@@ -127,10 +132,10 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="title">
-					<p><span>T</span>imeline</p>
+					<p class="wow bounceIn"><span>T</span>imeline</p>
 				</div>
 
-				<div class="col-8 thongtin timeline">
+				<div class="col-8 thongtin timeline wow bounceIn">
 					<div class="content left">
 						<div class="content-item">
 							<h2>2002 - 2007</h2>
@@ -164,10 +169,10 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="title">
-					<p><span>M</span>y <span>S</span>kills</p>
+					<p class="wow bounceIn"><span>M</span>y <span>S</span>kills</p>
 				</div>
 
-				<div class="col-8 thongtin skill-all">
+				<div class="col-8 thongtin skill-all wow bounceIn">
 					<div class="skills">
 						<label>HTML & CSS</label>
 						<div class="progress skill html">
@@ -201,29 +206,10 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="title">
-					<p><span>M</span>y <span>A</span>pps</p>
+					<p class="wow bounceIn"><span>M</span>y <span>A</span>pps</p>
 				</div>
 
-				<!-- <div class="col-8 thongtin skill-all owl-carousel">
-					<div class="col-6 card">
-						<img src="public/front-end/images/tintuc.png" alt="">
-						<div class="card-block">
-							<h4 class="card-title">Tin Tức</h4>
-							<p class="card-text"><small class="text-muted">http://datdangtin.byethost17.com</small></p>
-							<a href="" class="btn btn-warning btn-sm">GO</a>
-						</div>
-					</div>
-					<div class="col-6 card">
-						<img src="public/front-end/images/tintuc.png" alt="">
-						<div class="card-block">
-							<h4 class="card-title">Tin Tức</h4>
-							<p class="card-text"><small class="text-muted">http://datdangtin.byethost17.com</small></p>
-							<a href="" class="btn btn-warning btn-sm">GO</a>
-						</div>
-					</div>
-				</div> -->
-				
-				<div class="col-8 thongtin skill-all">
+				<div class="col-8 thongtin skill-all wow bounceIn">
 
 					<div id="my-app" class="carousel slide" data-ride="carousel">
 					  <div class="carousel-inner" role="listbox">
@@ -258,7 +244,7 @@
 							</div>
 						</div>
 					    <div class="carousel-item">
-		s					<div class="card">
+							<div class="card">
 								<img src="public/front-end/images/newspaper-v1.png" alt="">
 								<div class="card-block">
 									<h4 class="card-title">Tin Tức - WP v1</h4>
@@ -298,10 +284,10 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="title">
-					<p><span>C</span>ontact <span>M</span>e</p>
+					<p class="wow bounceIn"><span>C</span>ontact <span>M</span>e</p>
 				</div>
 
-				<div class="col-10 row thongtin contact">
+				<div class="col-10 row thongtin contact wow bounceInDown">
 					<div class="contactme col-12">
 						<div class="col-sm-3 float-left">
 							<img src="public/front-end/images/boss.jpg" alt="">
@@ -321,7 +307,7 @@
 					</div>
 
 					<div class="lienhe col-12 row">
-						<div id="map" class="col">
+						<div id="map" class="col wow slideInLeft">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.29413240368!2d108.24304461428437!3d15.893654248342191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420f8f6a6ca25f%3A0xc8e2a4f9caf6ba8d!2zNDEgVHLhuqduIFF1w70gQ8OhcCwgVsSpbmggxJBp4buHbiwgxJBp4buHbiBCw6BuLCBRdeG6o25nIE5hbSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1516029786947" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 
